@@ -1,0 +1,24 @@
+{
+  "name": "dndsort",
+  "description": "Help building sorted list items.",
+  "type": "library",
+  "keywords": [
+    "dndsort",
+    "sort",
+    "dnd",
+    "drop and drag",
+    "jquery",
+    "javascript"
+  ],
+  "license": "MIT",
+  "moduleType": "globals",
+  "main": [
+    "js/dndsort.js"
+  ],
+  "ignore": [
+    "composer.json"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 2"
+  }
+}

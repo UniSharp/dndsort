@@ -1,0 +1,20 @@
+{
+  "name": "unisharp/dndsort",
+  "description": "Help building sorted list items.",
+  "type": "library",
+  "keywords": [
+	"dndsort",
+	"sort",
+	"dnd",
+	"drop and drag",
+	"jquery",
+	"javascript"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Unisharp Ltd.",
+	  "email": "service@unisharp.com"
+	}
+  ]
+}
