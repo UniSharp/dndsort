@@ -1,9 +1,9 @@
 (function( $ ) {
   var list = $( "#sortable" );
 
-  $.fn.sortjs = function (mode, options) {
+  $.fn.dndsort = function (mode, options) {
 
-    var settings = $.extend( {}, $.fn.sortjs.settings, options );
+    var settings = $.extend( {}, $.fn.dndsort.settings, options );
 
     if (mode == 'new') {
       sort_new(settings);
@@ -14,7 +14,7 @@
     }
   }
 
-  $.fn.sortjs.settings = {
+  $.fn.dndsort.settings = {
     // These are the defaults.
     data : [],
     submit_name : 'sort',
